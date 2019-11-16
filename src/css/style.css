@@ -1,0 +1,121 @@
+/* fonts settings */
+@font-face {
+  font-family: 'Helvetica_reg';
+  src: url('../Fonts/HelveticaNeueCyr-Medium.eot');
+  src: url('../Fonts/HelveticaNeueCyr-Medium.eot?#iefix') format('embedded-opentype'), url('../Fonts/HelveticaNeueCyr-Medium.woff2') format('woff2'), url('../Fonts/HelveticaNeueCyr-Medium.woff') format('woff'), url('../Fonts/HelveticaNeueCyr-Medium.ttf') format('truetype'), url('../Fonts/HelveticaNeueCyr-Medium.svg#HelveticaNeueCyr-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Helvetica_bold';
+  src: url('../Fonts/HelveticaNeueCyr-Bold.eot');
+  src: url('../Fonts/HelveticaNeueCyr-Bold.eot?#iefix') format('embedded-opentype'), url('../Fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'), url('../Fonts/HelveticaNeueCyr-Bold.woff') format('woff'), url('../Fonts/HelveticaNeueCyr-Bold.ttf') format('truetype'), url('../Fonts/HelveticaNeueCyr-Bold.svg#HelveticaNeueCyr-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/* миксины для шрифтов */
+/* colors */
+/* basic settings */
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Helvetica_reg', sans-serif;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+.button {
+  margin: 2rem 0 2rem 0;
+  padding: 1.5rem 3rem;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  background-color: #94ca2d;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  /* эффект во время перехода */
+}
+.button:hover {
+  /*эффекты при наведении */
+  cursor: pointer;
+  /* указатель становится рукой */
+  /* background-color: lighten(@btn-color, 7%); сделать светлее цвет @btn-color на 5% */
+  background-color: #75a024;
+}
+.first {
+  display: inline-block;
+  width: 100%;
+  min-height: 4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.main {
+  background: #2e3632 url(../img/main/main-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.main-title,
+.main h3 {
+  color: #ffffff;
+}
+.main .picture {
+  width: 100%;
+  margin: 0 5rem 2rem -6rem;
+}
+.main .glaces {
+  display: block;
+  margin-top: 3rem;
+  width: 90%;
+}
+.main .header {
+  padding: 1rem 0 1rem 0;
+  color: #ffffff;
+}
+.main .header .about {
+  margin-left: 2rem;
+}
+.main .header .logo {
+  padding-bottom: 1rem;
+}
+.main .header .tell {
+  /*text-align: right;*/
+}
+.main .header .tell a {
+  color: #94ca2d;
+}
+.main .header .tell p {
+  margin-bottom: -0.2rem;
+  font-size: 1.7rem;
+  font-family: 'Helvetica_bold', sans-serif;
+}
+/* на всех экранах меньше 1200px */
+@media (max-width: 767px) {
+  .about {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  .main-title h2 {
+    font-size: 1.8rem;
+  }
+  .main-title h3 {
+    font-size: 1.4rem;
+  }
+  .button {
+    padding: 1.5rem 2rem;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
+  .picture {
+    min-width: 25rem;
+  }
+  .glaces {
+    margin-bottom: 2rem;
+  }
+}
