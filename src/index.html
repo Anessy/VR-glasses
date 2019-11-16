@@ -28,7 +28,7 @@
   </head>
 
   <body>
-
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->
 		<div class="main">
       <div class="first">
 <!-- логотип -->        
@@ -73,8 +73,10 @@
 <!-- форма ввода -->						
 					<div class="row">
 						<div class="col-md-6 col-sm-6 col-xs-6">
-							<button class="button">заказать vr box 2</button>
-							<img class="glaces" src="img/main/main-glaces.png" alt="VR очки">
+							<div class="knob">
+                <button class="button">заказать vr box 2</button>       
+              </div>
+							<img class="glasses" src="img/main/main-glasses.png" alt="VR очки">
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-6">
 							<img class="picture" src="img/main/main-dinozavr.png" alt="">
@@ -83,49 +85,62 @@
 				</div>
 		</div>
 
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->
+
 <!-- что такое VR -->
 
   <section class="whatIS">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h2>Что такое VR BOX 2</h2>
-          <p>Это специальное устройство, в которое вставляется смартфон. Очки одеваются на голову и крепко фиксируются. С их помощью вы можете целиком погрузиться в мир виртуальной реальности в любом удобном для вас месте. С очками можно: смотреть 3D фильмы, играть в игры, <br>Смотреть любые видео с YouTube и многое другое!</p>
+          <div class="whatIS-text">
+            <h2>Что такое VR BOX 2</h2>
+            <p>Это специальное устройство, в которое вставляется смартфон. Очки одеваются на голову и крепко фиксируются. С их помощью вы можете целиком погрузиться в мир виртуальной реальности в любом удобном для вас месте. С очками можно: смотреть 3D фильмы, играть в игры, <br>Смотреть любые видео с YouTube и многое другое!</p>
+          </div>
+        <div class="col-md-6">
+          <div class="complect">
+              <p><strong>Комплектация 1:</strong><br></p>
+              <p>- Очки VR Box 2 <br>
+                - Ремешок для крепления на голову <br>
+                - Ткань для очистки линз <br>
+                - Инструкция
+              </p>
+            <div class="complect-s">  
+              <p>Цена без пульта: <strong>2390 руб</strong></p>
+            </div>
+          </div>
         </div>
         <div class="col-md-6">
-          <img src="img/whatIS/box.png" alt="VR 2">
+          <div class="complect">
+                <p><strong>Комплектация 2:</strong><br></p>
+                <p> - Очки VR Box 2 <br>
+                  - Ремешок для крепления на голову <br>
+                  - Ткань для очистки линз <br>
+                  - Инструкция <br>
+                  - Пульт дистанционного управления </p>
+              <div class="complect-m">    
+                <p>Цена с пультом: <strong>2990 руб</strong></p>
+              </div>
+            </div>
         </div>
-      </div>
-        <div class="col-md-3">
-          <p>
-            <strong>Комплектация 1:</strong><br>
-            - Очки VR Box 2 <br>
-            - Ремешок для крепления на голову <br>
-            - Ткань для очистки линз <br>
-            - Инструкция 
-          </p>
-          <p>Цена без пульта: </p> <p>2390 руб</p>
-        </div>
-        <div class="col-md-3">
-          <p>
-            <strong>Комплектация 2:</strong><br>
-            - Очки VR Box 2 <br>
-            - Ремешок для крепления на голову <br>
-            - Ткань для очистки линз <br>
-            - Инструкция <br>
-            - Пульт дистанционного управления </p>
-          <p>Цена с пультом: </p> <p>2990 руб</p>
         </div>
 
+        <div class="col-md-6">
+          <div class="png">
+            <img src="img/whatIS/box.png" alt="VR 2">
+          </div>
+        </div>
+      </div>
+        
+
         <div class="row">
-          <div class="col-md-5 col-md-offset-7">
-            <butoon class="button">выбрать комплектацию и заказать VR BOX 2</butoon>
+          <div class="col-md-5">
+            <div class="knob">
+              <butoon class="button">выбрать комплектацию и заказать VR BOX 2</butoon>
+            </div>
           </div>
         </div>
     </div>
-      
-
-
   </section>
 
 
@@ -157,8 +172,8 @@
   <!-- Инициализируем слайдер с преимуществами-->
   <script>
   	$(document).ready(function(){
-  		/* открыть модальное коно при нажатии на кнопку popup-btn */
-  $('.popup-btn').on('click', function(event) {
+  		/* открыть модальное коно при нажатии на кнопку popup-knob */
+  $('.popup-knob').on('click', function(event) {
   	event.preventDefault(); 
   	$('.popup').fadeIn();
   });
@@ -171,8 +186,8 @@
 /* слайдер с отзывами */
 
   $('.feedback-slider').slick({
-  	prevArrow: '<button type="button" class="feedback-slider-btn feedback-prev-btn"><img src="img/feedback/arrowLeft.svg"></button>',
-  	nextArrow: '<button type="button" class="feedback-slider-btn feedback-next-btn"><img src="img/feedback/arrowRIGHT.svg"></button>'
+  	prevArrow: '<button type="button" class="feedback-slider-knob feedback-prev-knob"><img src="img/feedback/arrowLeft.svg"></button>',
+  	nextArrow: '<button type="button" class="feedback-slider-knob feedback-next-knob"><img src="img/feedback/arrowRIGHT.svg"></button>'
 
   });
 

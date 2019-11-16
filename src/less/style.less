@@ -59,6 +59,7 @@ button, input, a, textarea {
 		outline: none;
 	}
 }
+/* общий стили для всех кнопок */
 
 .button {
 	margin: 2rem 0 2rem 0;
@@ -76,6 +77,8 @@ button, input, a, textarea {
 		background-color: darken(@btn-color, 10%);
 	}
 }
+
+/* главный экран */
 
 .first {
 	display: inline-block;
@@ -122,6 +125,40 @@ button, input, a, textarea {
 	}
 }
 
+/* что такое vr */
+
+.whatIS {
+	background-color: #f8f8f0;
+	background-size: cover;
+	&-text {
+		h2 {
+			margin: 8rem 0 3rem 0;
+			.bold();
+		}
+	}
+	.complect {
+		margin-top: 2rem;
+		&-s {
+			margin-top: 3rem;
+			strong {
+				color: red;
+			}
+		}
+		&-m {
+			strong {
+				color: red;
+			} 
+		}
+	}
+	.png {
+		img {
+			margin-top: 6rem;
+		}
+	}
+	.knob {
+		margin-top: 3rem;
+	}
+}
 
 
 /* на всех экранах меньше 1200px */
@@ -154,7 +191,8 @@ button, input, a, textarea {
 	.picture {
 		min-width: 25rem;
 	}
-	.glaces {
-		margin-bottom: 2rem;
+	.glasses {
+		margin-top: 2rem;
+		padding-top: 2rem;
 	}
 }

@@ -31,6 +31,7 @@ a:focus,
 textarea:focus {
   outline: none;
 }
+/* общий стили для всех кнопок */
 .button {
   margin: 2rem 0 2rem 0;
   padding: 1.5rem 3rem;
@@ -51,6 +52,7 @@ textarea:focus {
   /* background-color: lighten(@btn-color, 7%); сделать светлее цвет @btn-color на 5% */
   background-color: #75a024;
 }
+/* главный экран */
 .first {
   display: inline-block;
   width: 100%;
@@ -95,6 +97,33 @@ textarea:focus {
   font-size: 1.7rem;
   font-family: 'Helvetica_bold', sans-serif;
 }
+/* что такое vr */
+.whatIS {
+  background-color: #f8f8f0;
+  background-size: cover;
+}
+.whatIS-text h2 {
+  margin: 8rem 0 3rem 0;
+  font-family: 'Helvetica_bold', sans-serif;
+}
+.whatIS .complect {
+  margin-top: 2rem;
+}
+.whatIS .complect-s {
+  margin-top: 3rem;
+}
+.whatIS .complect-s strong {
+  color: red;
+}
+.whatIS .complect-m strong {
+  color: red;
+}
+.whatIS .png img {
+  margin-top: 6rem;
+}
+.whatIS .knob {
+  margin-top: 3rem;
+}
 /* на всех экранах меньше 1200px */
 @media (max-width: 767px) {
   .about {
@@ -115,7 +144,8 @@ textarea:focus {
   .picture {
     min-width: 25rem;
   }
-  .glaces {
-    margin-bottom: 2rem;
+  .glasses {
+    margin-top: 2rem;
+    padding-top: 2rem;
   }
 }
