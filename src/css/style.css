@@ -101,6 +101,7 @@ textarea:focus {
 .whatIS {
   background-color: #f8f8f0;
   background-size: cover;
+  border-bottom: 1px dotted grey;
 }
 .whatIS-text h2 {
   margin: 8rem 0 3rem 0;
@@ -123,6 +124,28 @@ textarea:focus {
 }
 .whatIS .knob {
   margin-top: 3rem;
+  margin-bottom: 7rem;
+}
+.useful {
+  background-color: #fcfcf6;
+}
+.useful-man {
+  margin-top: 5rem;
+}
+.useful-textMAN {
+  margin-top: 5rem;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+.useful .gif {
+  margin-top: 2rem;
+}
+.useful p {
+  margin-left: -1rem;
+}
+.useful-shark {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 /* на всех экранах меньше 1200px */
 @media (max-width: 767px) {
