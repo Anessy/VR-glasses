@@ -221,6 +221,62 @@ button, input, a, textarea {
 	}
 	
 }
+.simulation {
+	background-color: #fcfcf6; 
+	.skiing {
+		margin-top: 4rem;
+	}
+	.extrim {
+		margin-top: 12rem;
+		&-text {
+			margin-left: 1.2rem;
+		}
+	}
+	.play {
+		margin-bottom: 5rem;
+	}
+	.computer {
+		margin-top: 8rem;
+		&-text {
+			margin-left: 1.2rem;
+		}
+	}
+}
+
+.howITworks {
+	text-align: center;
+	background-color: #f8f8f0;
+	padding-bottom: 8rem;
+	h2 {
+		margin: 8rem 0 1rem 0;
+		.bold();	
+	}
+	&-text {
+		position:relative;
+        display:inline-block;
+	}
+	&-text:after{
+            content:"";
+            position:absolute;
+            bottom:0;
+            left:50%;
+            width:20%;
+            height:5px;
+            margin-left:-10%;
+            background:#18a7d0;
+            
+        }
+    &-png {
+    	margin-top: 8rem;
+    	    } 
+    &-png2 {
+    	transform: translateY(25%);
+    } 
+    &-png4 {
+    	transform: translateY(10%);
+    }  
+
+}
 
 
 /* на всех экранах меньше 1200px */

@@ -184,6 +184,61 @@ textarea:focus {
   color: white;
   background-color: black;
 }
+.simulation {
+  background-color: #fcfcf6;
+}
+.simulation .skiing {
+  margin-top: 4rem;
+}
+.simulation .extrim {
+  margin-top: 12rem;
+}
+.simulation .extrim-text {
+  margin-left: 1.2rem;
+}
+.simulation .play {
+  margin-bottom: 5rem;
+}
+.simulation .computer {
+  margin-top: 8rem;
+}
+.simulation .computer-text {
+  margin-left: 1.2rem;
+}
+.howITworks {
+  text-align: center;
+  background-color: #f8f8f0;
+  padding-bottom: 8rem;
+}
+.howITworks h2 {
+  margin: 8rem 0 1rem 0;
+  font-family: 'Helvetica_bold', sans-serif;
+}
+.howITworks-text {
+  position: relative;
+  display: inline-block;
+}
+.howITworks-text:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 20%;
+  height: 5px;
+  margin-left: -10%;
+  background: #18a7d0;
+}
+.howITworks-png {
+  margin-top: 8rem;
+}
+.howITworks-png2 {
+  -webkit-transform: translateY(25%);
+          transform: translateY(25%);
+}
+.howITworks-png4 {
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
+}
 /* на всех экранах меньше 1200px */
 @media (max-width: 767px) {
   .about {
