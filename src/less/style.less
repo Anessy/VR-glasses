@@ -65,7 +65,7 @@ button, input, a, textarea {
 	margin: 2rem 0 2rem 0;
 	padding: 1.5rem 3rem;
 	border-radius: 3px;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	background-color: @btn-color;
 	color: @light;
 	text-transform: uppercase;
@@ -179,7 +179,47 @@ button, input, a, textarea {
 	}
 	&-shark {
 		transform: translateY(-50%);
+		margin-bottom: -9rem;
 	}
+}
+
+.order {
+	background: #01171f url(../img/order/bg.jpg) center no-repeat;
+	background-size: cover;
+	color: white;
+	padding-bottom: 5rem;
+	h2 {
+		.bold();
+		margin-top: 7rem;
+	}
+	img {
+		margin-left: -2rem;
+	}
+	.withIMG {
+		background: url(../img/order/square.png) center no-repeat;
+		background-size: 100%;
+		margin: 2rem 0 4rem 0;
+		padding-top: 1rem;
+	}
+
+	.form {
+		margin-top: 4rem;
+		text-align: center;
+		border: 2px solid #21a3af;
+		background-color: black;
+		h4 {
+			margin: 2rem 0 2rem 0;
+		}
+		input {
+			margin-top: 1rem;
+			padding: 1rem 2rem 1rem 2rem;
+			border: 1px solid white;
+			border-radius: 3px; 
+			color: white;
+			background-color: black;
+		}
+	}
+	
 }
 
 

@@ -36,7 +36,7 @@ textarea:focus {
   margin: 2rem 0 2rem 0;
   padding: 1.5rem 3rem;
   border-radius: 3px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   background-color: #94ca2d;
   color: #ffffff;
   text-transform: uppercase;
@@ -146,6 +146,43 @@ textarea:focus {
 .useful-shark {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  margin-bottom: -9rem;
+}
+.order {
+  background: #01171f url(../img/order/bg.jpg) center no-repeat;
+  background-size: cover;
+  color: white;
+  padding-bottom: 5rem;
+}
+.order h2 {
+  font-family: 'Helvetica_bold', sans-serif;
+  margin-top: 7rem;
+}
+.order img {
+  margin-left: -2rem;
+}
+.order .withIMG {
+  background: url(../img/order/square.png) center no-repeat;
+  background-size: 100%;
+  margin: 2rem 0 4rem 0;
+  padding-top: 1rem;
+}
+.order .form {
+  margin-top: 4rem;
+  text-align: center;
+  border: 2px solid #21a3af;
+  background-color: black;
+}
+.order .form h4 {
+  margin: 2rem 0 2rem 0;
+}
+.order .form input {
+  margin-top: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  background-color: black;
 }
 /* на всех экранах меньше 1200px */
 @media (max-width: 767px) {
