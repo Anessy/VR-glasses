@@ -231,13 +231,35 @@ textarea:focus {
 .howITworks-png {
   margin-top: 8rem;
 }
+.howITworks-png p {
+  margin-top: 2rem;
+}
 .howITworks-png2 {
-  -webkit-transform: translateY(25%);
-          transform: translateY(25%);
+  -webkit-transform: translateY(18%);
+          transform: translateY(18%);
 }
 .howITworks-png4 {
-  -webkit-transform: translateY(10%);
-          transform: translateY(10%);
+  -webkit-transform: translateY(7%);
+          transform: translateY(7%);
+}
+.compatibility {
+  background-color: #fcfcf6;
+}
+.compatibility h2 {
+  margin: 8rem 0 6rem 0;
+  font-family: 'Helvetica_bold', sans-serif;
+}
+.compatibility-png {
+  display: inline-block;
+  text-align: center;
+  margin: 0.5rem;
+}
+.compatibility-png p {
+  margin-top: 1rem;
+}
+.compatibility-glasses img {
+  margin-top: -2rem;
+  margin-bottom: 2rem;
 }
 /* на всех экранах меньше 1200px */
 @media (max-width: 767px) {
