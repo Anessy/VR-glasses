@@ -244,6 +244,7 @@ textarea:focus {
 }
 .compatibility {
   background-color: #fcfcf6;
+  padding-bottom: 4rem;
 }
 .compatibility h2 {
   margin: 8rem 0 6rem 0;
@@ -260,6 +261,43 @@ textarea:focus {
 .compatibility-glasses img {
   margin-top: -2rem;
   margin-bottom: 2rem;
+}
+.reality {
+  background: #464f50 url(../img/reality/reality-bg.jpg) center no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.reality h2 {
+  margin: 7rem 0 3rem 0;
+}
+.reality p {
+  margin: 2rem 0 6rem 0;
+}
+.games {
+  background-color: #fcfcf6;
+  border-bottom: 1px dotted gray;
+}
+.games-name {
+  text-align: center;
+}
+.games-name img {
+  width: 10%;
+  margin: 2rem 0 3rem 0;
+}
+.games-weapons {
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+}
+.games-text {
+  margin-top: 3rem;
+}
+.games-img img {
+  margin-left: -11rem;
+}
+.games-knop {
+  text-align: center;
+  margin-bottom: 4rem;
 }
 /* на всех экранах меньше 1200px */
 @media (max-width: 767px) {
