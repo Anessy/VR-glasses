@@ -278,6 +278,9 @@ textarea:focus {
   background-color: #fcfcf6;
   border-bottom: 1px dotted gray;
 }
+.games h2 {
+  margin-top: 6rem;
+}
 .games-name {
   text-align: center;
 }
@@ -298,6 +301,98 @@ textarea:focus {
 .games-knop {
   text-align: center;
   margin-bottom: 4rem;
+}
+.review {
+  background-color: #f8f8f0;
+  border-bottom: 1px dotted gray;
+}
+.review-center {
+  text-align: center;
+}
+.review-text {
+  position: relative;
+  display: inline-block;
+  margin-top: 8rem;
+  font-family: 'Helvetica_bold', sans-serif;
+}
+.review-text:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 10%;
+  height: 5px;
+  margin-left: -5%;
+  background: #18a7d0;
+}
+.review-about {
+  margin-top: 6rem;
+}
+.review-comment {
+  margin: 1px;
+  width: 49%;
+  padding: 2rem 0 3rem 0;
+  border: 2px solid #95d5d2;
+  border-radius: 3px;
+}
+.review-name {
+  font-family: 'Helvetica_bold', sans-serif;
+  -webkit-transform: translateY(75%);
+          transform: translateY(75%);
+}
+.review-letter {
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: justify;
+}
+.review-figure {
+  position: relative;
+  top: -73rem;
+  left: 100rem;
+}
+.howDoWeWork {
+  text-align: center;
+  padding-bottom: 6rem;
+  background-color: #fcfcf6;
+}
+.howDoWeWork-name {
+  position: relative;
+  display: inline-block;
+  margin-top: 8rem;
+  font-family: 'Helvetica_bold', sans-serif;
+}
+.howDoWeWork-name:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 53%;
+  width: 5%;
+  height: 5px;
+  margin-left: -5%;
+  background: #18a7d0;
+}
+.howDoWeWork .png {
+  padding-top: 6rem;
+}
+.howDoWeWork .png img {
+  margin-bottom: 3rem;
+}
+.second {
+  background: #0b1317 url(../img/second-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.questions {
+  padding: 4rem 0 4rem 0;
+  text-align: center;
+}
+.questions h2 {
+  font-family: 'Helvetica_bold', sans-serif;
+}
+.questions a {
+  color: black;
+  border-bottom: 1px dotted black;
+}
+.last {
+  background-color: black;
 }
 /* на всех экранах меньше 1200px */
 @media (max-width: 767px) {
