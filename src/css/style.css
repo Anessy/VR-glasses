@@ -329,8 +329,6 @@ textarea:focus {
   margin-top: 6rem;
 }
 .review-comment {
-  margin: 1px;
-  width: 49%;
   padding: 2rem 0 3rem 0;
   border: 2px solid #95d5d2;
   border-radius: 3px;
@@ -395,7 +393,119 @@ textarea:focus {
   background-color: black;
 }
 /* на всех экранах меньше 1200px */
+@media (max-width: 1199px) {
+  .useful h3 {
+    margin-left: 2rem;
+  }
+  .useful p {
+    margin-left: 1rem;
+  }
+  .order .withIMG {
+    background-size: cover;
+  }
+  .compatibility {
+    text-align: center;
+  }
+  .compatibility-glasses {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .useful-man {
+    margin-bottom: -15rem;
+  }
+  .useful-textMAN h3 {
+    margin-left: -0.5rem;
+  }
+  .useful-textSHARK .gif {
+    -webkit-transform: translateY(150%);
+            transform: translateY(150%);
+  }
+  .useful-textSHARK h3 {
+    margin-left: 6rem;
+  }
+  .useful-shark {
+    margin-top: 6rem;
+    margin-left: 3rem;
+  }
+  .order {
+    text-align: center;
+  }
+  .simulation .skiing {
+    margin-bottom: -4rem;
+  }
+  .simulation .play {
+    margin-top: 4rem;
+    margin-left: 6rem;
+  }
+  .howITworks-png3 {
+    margin-top: 6rem;
+  }
+}
 @media (max-width: 767px) {
+  .header {
+    text-align: center;
+  }
+  .main .picture {
+    width: 70%;
+  }
+  .main .glasses {
+    width: 90%;
+  }
+  .whatIS .png img {
+    margin-top: -2rem;
+    width: 100%;
+  }
+  .useful-man img {
+    width: 100%;
+  }
+  .useful-textSHARK p {
+    padding-left: 3.5rem;
+  }
+  .useful-shark img {
+    width: 140%;
+  }
+  .order form p {
+    margin-top: 1rem;
+  }
+  .order form button {
+    font-size: 1.6rem;
+  }
+  .simulation .skiing img {
+    width: 100%;
+  }
+  .simulation .extrim-png {
+    margin-top: 7rem;
+  }
+  .simulation .extrim-text {
+    margin-top: 7rem;
+  }
+  .simulation .computer {
+    margin-top: 0;
+  }
+  .simulation .computer img {
+    margin-top: 1rem;
+  }
+  .simulation .play img {
+    margin-top: 3rem;
+    margin-left: -4rem;
+    width: 140%;
+  }
+  .compatibility-png {
+    margin: 0 -3rem 2rem -3rem;
+  }
+  .compatibility-png img {
+    width: 30%;
+  }
+  .compatibility-glasses img {
+    width: 100%;
+  }
+  .review-comment {
+    width: 100%;
+  }
+  .review img {
+    width: 120%;
+  }
   .about {
     margin-top: 1rem;
     font-size: 1.1rem;
